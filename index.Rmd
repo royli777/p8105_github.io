@@ -4,13 +4,12 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
 # This is Jeff's awesome website
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
-This is a [link](https://www.google.com/) to a good data science tool. Here is a link to [about](about.html)page.(?)
+This is a [link](https://www.google.com/) to a good data science tool. Here is a link to [P8105](https://p8105.com/). Here is a link to [about](about.html)page.
 you can still use R!
 
 ```{r}
@@ -32,3 +31,6 @@ Also here is the "backstage" are in Alumni Auditoriom
 
 ![](images/backstage.jpg)
 
+## Other stuff
+
+There is [plotly](plot-ly.html)stuff!

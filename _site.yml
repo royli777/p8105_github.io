@@ -5,10 +5,12 @@ navbar:
   right:
     - text: "About"
       href: about.html
+    - text: "Projects"
+      href: projects.html
     - icon: fa-envelope fa-lg
       href: mailto:<you@youremail.com>
     - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+      href: https://github.com/royli777/p8105_github.io
 output:
   html_document:
     theme: cerulean

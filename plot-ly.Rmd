@@ -63,3 +63,16 @@ nyc_airbnb |>
   plot_ly(x = ~neighbourhood, y =~n, color = ~neighbourhood,
           type="bar",colors="viridis")
 ```
+
+## ggplotly
+
+Not encouraged
+
+```{r}
+ggp_scatter = 
+  nyc_airbnb |>
+  ggplot(aes(x=lat,y=long,color=price))+
+  geom_point(alpha = 0.5)
+
+ggplotly(ggp_scatter)
+```
